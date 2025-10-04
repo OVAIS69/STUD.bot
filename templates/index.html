@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudBot - Your AI Learning Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <i class="fas fa-robot"></i>
+                    <span>StudBot</span>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#chat" class="nav-link">Chat</a>
+                <a href="#quiz" class="nav-link">Quiz</a>
+                <a href="#about" class="nav-link">About</a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Enter the World of 
+                        <span class="gradient-text">Artificial Intelligence</span>
+                        with StudBot
+                    </h1>
+                    <p class="hero-description">
+                        Your intelligent learning companion for BSc IT students. 
+                        Master AI concepts through interactive conversations, 
+                        practice quizzes, and personalized guidance.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('chat')">
+                            <i class="fas fa-comments"></i>
+                            Start Learning
+                        </button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('quiz')">
+                            <i class="fas fa-question-circle"></i>
+                            Take Quiz
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="robot-container">
+                        <div class="robot">
+                            <div class="robot-head">
+                                <div class="robot-eyes">
+                                    <div class="eye left-eye"></div>
+                                    <div class="eye right-eye"></div>
+                                </div>
+                                <div class="robot-mouth"></div>
+                            </div>
+                            <div class="robot-body">
+                                <div class="robot-screen">
+                                    <div class="screen-content">
+                                        <i class="fas fa-brain"></i>
+                                        <span>AI Learning</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="robot-arms">
+                                <div class="arm left-arm"></div>
+                                <div class="arm right-arm"></div>
+                            </div>
+                        </div>
+                        <div class="floating-books">
+                            <div class="book book-1">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="book book-2">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="book book-3">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </section>
+
+    <!-- Chat Section -->
+    <section id="chat" class="chat-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Interactive AI Learning</h2>
+                <p>Ask questions about Artificial Intelligence concepts and get detailed explanations</p>
+            </div>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="chat-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="chat-info">
+                        <h3>StudBot</h3>
+                        <span class="status">Online</span>
+                    </div>
+                    <div class="chat-controls">
+                        <button class="btn-icon" onclick="clearChat()">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                        <div class="message-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="message-content">
+                            <p>Hello! I'm StudBot, your AI learning companion. I can help you understand Artificial Intelligence concepts, answer your questions, and guide you through your BSc IT studies. What would you like to learn about today?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input-container">
+                    <div class="chat-input">
+                        <input type="text" id="messageInput" placeholder="Ask me anything about AI..." autocomplete="off">
+                        <button class="send-btn" onclick="studBot.sendMessage()">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="quick-questions">
+                        <button class="quick-btn" onclick="askQuickQuestion('What is Artificial Intelligence?')">What is AI?</button>
+                        <button class="quick-btn" onclick="askQuickQuestion('Explain machine learning')">Machine Learning</button>
+                        <button class="quick-btn" onclick="askQuickQuestion('What are neural networks?')">Neural Networks</button>
+                        <button class="quick-btn" onclick="askQuickQuestion('Explain search algorithms')">Search Algorithms</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Test Your Knowledge</h2>
+                <p>Practice with multiple-choice questions covering all AI topics</p>
+            </div>
+            <div class="quiz-container" id="quizContainer">
+                <div class="quiz-welcome">
+                    <div class="quiz-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Ready to Test Your AI Knowledge?</h3>
+                    <p>Choose your difficulty level and start the quiz</p>
+                    <div class="difficulty-selector">
+                        <button class="difficulty-btn" data-level="easy" onclick="studBot.startQuiz('easy')">
+                            <i class="fas fa-seedling"></i>
+                            Easy
+                        </button>
+                        <button class="difficulty-btn" data-level="medium" onclick="studBot.startQuiz('medium')">
+                            <i class="fas fa-fire"></i>
+                            Medium
+                        </button>
+                        <button class="difficulty-btn" data-level="hard" onclick="studBot.startQuiz('hard')">
+                            <i class="fas fa-mountain"></i>
+                            Hard
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About StudBot</h2>
+                <p>Your intelligent learning companion for Artificial Intelligence</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Why StudBot?</h3>
+                    <p>StudBot is designed specifically for BSc IT students studying Artificial Intelligence. Our AI-powered platform provides:</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Comprehensive AI knowledge base</li>
+                        <li><i class="fas fa-check"></i> Interactive Q&A sessions</li>
+                        <li><i class="fas fa-check"></i> Practice quizzes with instant feedback</li>
+                        <li><i class="fas fa-check"></i> Personalized learning paths</li>
+                        <li><i class="fas fa-check"></i> 24/7 availability</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Questions</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">33</div>
+                        <div class="stat-label">Topics</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Units</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-robot"></i>
+                        <span>StudBot</span>
+                    </div>
+                    <p>Your AI Learning Companion</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#chat">Chat</a>
+                    <a href="#quiz">Quiz</a>
+                    <a href="#about">About</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 StudBot. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>StudBot is thinking...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

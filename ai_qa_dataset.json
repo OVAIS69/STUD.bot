@@ -1,0 +1,497 @@
+{
+  "metadata": {
+    "total_questions": 33,
+    "categories": [
+      "Foundations of AI",
+      "AI Environments",
+      "Problem Solving",
+      "Optimization Problems",
+      "Probabilistic Reasoning",
+      "Informed Search",
+      "Adversarial Search",
+      "Introduction to AI",
+      "Planning",
+      "First Order Logic",
+      "Generative AI",
+      "Inference Methods",
+      "Search Algorithms",
+      "Knowledge Representation",
+      "Optimization Algorithms",
+      "Uninformed Search",
+      "History of AI",
+      "Logic and Reasoning"
+    ],
+    "created_at": "2025-09-30T00:23:41.876208"
+  },
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "Define Artificial Intelligence and explain its significance in modern computing.",
+      "answer": "Artificial Intelligence (AI) is defined as \"the science and engineering of making intelligent machines, especially intelligent computer programs\" as coined by John McCarthy in 1956.\n\nAI enables computers to perform tasks that typically require human intelligence, including learning, reasoning, problem-solving, perception, and understanding language. It is relevant to any intellectual task where machines need to make decisions or choose actions based on the current system state, essentially acting intelligently or rationally.\n\nThe significance of AI in modern computing includes:\n1. Universal Application: AI has a wide range of applications across virtually all domains\n2. Decision Making: Enables automated, intelligent decision-making in complex scenarios\n3. Adaptation: Systems can adapt to changing conditions and learn from experience\n4. Efficiency: Automates tasks that previously required human intervention\n5. Problem Solving: Tackles complex problems through computational intelligence\n\nAI represents a transformative technology that extends computational capabilities beyond traditional programming to include intelligent behavior and autonomous decision-making.",
+      "category": "Introduction to AI",
+      "marks": 5,
+      "keywords": [
+        "AI definition",
+        "John McCarthy",
+        "intelligent machines",
+        "decision making"
+      ],
+      "created_at": "2025-09-30T00:23:41.871989"
+    },
+    {
+      "id": 2,
+      "question": "Differentiate between Narrow AI and General AI with suitable examples.",
+      "answer": "Narrow AI and General AI represent two distinct categories of artificial intelligence:\n\n**Narrow AI (Weak AI):**\n- Designed for specific, well-defined tasks\n- Cannot perform beyond its programmed capabilities\n- Operates within a limited domain\n- Currently available and widely deployed\n- Examples: Siri (voice assistant), Google Translate (language translation), Face Recognition systems, recommendation algorithms\n\n**General AI (Strong AI):**\n- Can perform any intellectual task that a human can perform\n- Has the ability to learn and adapt independently across domains\n- Possesses reasoning capabilities comparable to human intelligence\n- Still theoretical and under active research\n- No practical implementations exist yet\n- Represents the long-term goal of AI research\n\n**Key Differences:**\n1. Scope: Narrow AI is task-specific; General AI is universal\n2. Flexibility: Narrow AI cannot transfer learning; General AI can apply knowledge across domains\n3. Availability: Narrow AI exists today; General AI remains theoretical\n4. Autonomy: Narrow AI follows programming; General AI would exhibit true autonomy\n5. Intelligence: Narrow AI simulates intelligence; General AI would possess genuine intelligence\n\nCurrently, all commercially available AI systems are examples of Narrow AI.",
+      "category": "Introduction to AI",
+      "marks": 5,
+      "keywords": [
+        "Narrow AI",
+        "General AI",
+        "Weak AI",
+        "Strong AI"
+      ],
+      "created_at": "2025-09-30T00:23:41.872024"
+    },
+    {
+      "id": 3,
+      "question": "Explain the Turing Test approach to AI with its significance and methodology.",
+      "answer": "The Turing Test, designed by Sir Alan Turing, is a benchmark for evaluating whether a machine can exhibit intelligent behavior indistinguishable from a human. It follows the \"Acting Humanly\" approach to AI.\n\n**Methodology:**\nThe test involves a human judge engaging in a text-based conversation with both a human and a machine simultaneously. The judge must determine which respondent is human based solely on the conversation. If the judge cannot reliably distinguish the machine from the human, the machine is said to have passed the Turing Test.\n\n**Key Components:**\n1. Written communication format to eliminate physical appearance bias\n2. Human interrogator asks questions to both participants\n3. Machine must provide responses indistinguishable from human responses\n4. Focus on behavioral similarity rather than internal mechanisms\n\n**Significance:**\n1. Historical Impact: Remains valid even after 60+ years of AI research\n2. Behavioral Benchmark: Tests practical intelligence rather than theoretical capability\n3. Communication Focus: Emphasizes natural language understanding and generation\n4. Philosophical Implications: Raises questions about machine consciousness and intelligence\n\n**Required Capabilities:**\nFor a machine to pass the Turing Test, it needs:\n- Natural Language Processing to understand and generate text\n- Knowledge representation to store and retrieve information\n- Automated reasoning to answer questions logically\n- Machine learning to adapt and improve responses\n\nThe Turing Test remains a fundamental concept in AI, though modern AI research has expanded beyond this single benchmark.",
+      "category": "Introduction to AI",
+      "marks": 5,
+      "keywords": [
+        "Turing Test",
+        "Alan Turing",
+        "machine intelligence",
+        "behavioral test"
+      ],
+      "created_at": "2025-09-30T00:23:41.872029"
+    },
+    {
+      "id": 4,
+      "question": "Describe the four main approaches to defining Artificial Intelligence.",
+      "answer": "Artificial Intelligence can be defined through four distinct approaches, each offering a unique perspective on what constitutes AI:\n\n**1. Acting Humanly: The Turing Test Approach**\n- Definition: \"The art of creating machines that perform functions requiring intelligence when performed by people\"\n- Focus: Making machines behave like humans in observable ways\n- Evaluation: Through behavioral similarity testing\n- Example: Chatbots, virtual assistants mimicking human conversation\n\n**2. Thinking Humanly: The Cognitive Modelling Approach**\n- Definition: \"The automation of activities we associate with human thinking, such as decision-making, problem-solving, and learning\"\n- Focus: Understanding and replicating human thought processes\n- Methodology: Uses cognitive science to model human mental processes\n- Techniques: Introspection, psychological experiments, brain imaging\n- Goal: Creating programs whose input-output matches human reasoning\n\n**3. Thinking Rationally: The Laws of Thought Approach**\n- Definition: \"The study of mental faculties through computational models\"\n- Focus: Implementing logical reasoning and \"right thinking\"\n- Foundation: Based on Aristotelian logic and formal reasoning\n- Example: \"Socrates is a man; all men are mortal; therefore Socrates is mortal\"\n- Limitation: Requires complete knowledge and extensive computational resources\n\n**4. Acting Rationally: The Rational Agent Approach**\n- Definition: \"Concerned with intelligent behavior in artifacts\"\n- Focus: Creating agents that make optimal decisions to achieve goals\n- Characteristics: Acts to achieve best outcomes even with uncertainty\n- Components: Perception through sensors, action through actuators\n- Example: Autonomous vehicles making real-time navigation decisions\n\nThese four approaches have historically been pursued by different research groups, each contributing unique perspectives to AI development.",
+      "category": "Introduction to AI",
+      "marks": 5,
+      "keywords": [
+        "AI approaches",
+        "Turing Test",
+        "cognitive modelling",
+        "rational agents"
+      ],
+      "created_at": "2025-09-30T00:23:41.872032"
+    },
+    {
+      "id": 5,
+      "question": "Compare and contrast Human Brain and Computer in the context of artificial intelligence.",
+      "answer": "The comparison between human brains and computers reveals fundamental differences that inform AI development:\n\n**Processing:**\n- Human Brain: Parallel processing - can handle multiple tasks simultaneously using distributed neural networks\n- Computer: Mostly sequential processing - executes instructions one after another (though modern systems have parallel capabilities)\n\n**Learning:**\n- Human Brain: Experience-based learning through interaction with environment, contextual understanding, and emotional connections\n- Computer: Data-driven learning via algorithms, requiring structured training data and explicit programming\n\n**Emotions:**\n- Human Brain: Possesses emotions that influence decision-making, motivation, and social interaction\n- Computer: No emotions - operates purely on logical rules and programmed responses\n\n**Memory:**\n- Human Brain: Limited capacity but highly adaptive, uses context and associations, subject to forgetting and reconstruction\n- Computer: Large but fixed storage capacity, perfect recall of stored data, no natural forgetting mechanism\n\n**Creativity:**\n- Human Brain: High creativity - can imagine, innovate, and generate novel ideas without explicit training\n- Computer: Limited creativity (currently) - can recombine existing patterns but struggles with true originality\n\n**Implications for AI:**\n1. AI excels at tasks requiring large-scale data processing and perfect memory\n2. Humans remain superior in tasks requiring emotional intelligence, creativity, and contextual understanding\n3. Modern AI attempts to bridge gaps through neural networks (inspired by brain structure) and machine learning\n4. Hybrid approaches combining human and AI strengths often prove most effective\n\nUnderstanding these differences guides AI development toward complementing human capabilities rather than simply replicating them.",
+      "category": "Introduction to AI",
+      "marks": 5,
+      "keywords": [
+        "human brain",
+        "computer",
+        "comparison",
+        "AI limitations"
+      ],
+      "created_at": "2025-09-30T00:23:41.872035"
+    },
+    {
+      "id": 6,
+      "question": "Explain the six foundational disciplines that contribute to Artificial Intelligence.",
+      "answer": "Artificial Intelligence draws upon six major foundational disciplines, each contributing essential concepts and methods:\n\n**1. Philosophy:**\n- Contributions: Logic, reasoning methods, knowledge representation\n- Key Questions: Can formal rules draw valid conclusions? How does mind arise from physical brain? Where does knowledge come from? How does knowledge lead to action?\n- Impact: Provides theoretical foundation for reasoning and knowledge\n\n**2. Mathematics:**\n- Contributions: Formal logic, optimization algorithms, probability theory, computational theory\n- Key Questions: What are formal rules for valid conclusions? What can be computed? How to reason with uncertainty?\n- Example: Google's PageRank algorithm uses probability for search ranking\n\n**3. Economics:**\n- Contributions: Decision theory, game theory, utility maximization\n- Key Questions: How to make optimal decisions? How to handle multi-agent scenarios? How to plan for long-term outcomes?\n- Impact: Informs rational decision-making in AI systems\n\n**4. Neuroscience:**\n- Contributions: Neural network inspiration, brain information processing models\n- Example: Deep learning in self-driving cars mimics human vision and decision-making\n- Impact: Provides biological inspiration for AI architectures\n\n**5. Psychology:**\n- Contributions: Human cognition models, learning theories, perception studies\n- Focus: Cognitive psychology views brain as information-processing unit\n- Example: Educational AI tutors (like Duolingo) adapt to student learning styles\n\n**6. Linguistics:**\n- Contributions: Language structure, natural language processing, syntax and semantics\n- Question: How does language relate to thought?\n- Example: ChatGPT and Google Assistant use NLP for human-like communication\n\nThese disciplines collectively provide the theoretical frameworks, methodologies, and inspiration necessary for developing comprehensive AI systems.",
+      "category": "Foundations of AI",
+      "marks": 5,
+      "keywords": [
+        "AI foundations",
+        "interdisciplinary",
+        "philosophy",
+        "mathematics"
+      ],
+      "created_at": "2025-09-30T00:23:41.872038"
+    },
+    {
+      "id": 7,
+      "question": "Trace the historical evolution of Artificial Intelligence from ancient times to the present.",
+      "answer": "The history of Artificial Intelligence spans from ancient imagination to modern reality:\n\n**Ancient Dreams (Pre-1600s):**\n- Greek Myths: Talos, a mechanical robot guarding Crete\n- Indian Epics: Vedic stories featuring mechanical birds and talking statues\n- Da Vinci's Robot (1495): Leonardo designed a mechanical knight\n- Significance: AI began as human imagination before technology existed\n\n**Early Scientific Thoughts (1600s-1800s):**\n- René Descartes: \"I think, therefore I am\" - questioned reasoning nature\n- Gottfried Leibniz: Dreamed of thought-calculating machines\n- Jacquard Loom (1801): Used punched cards, precursor to programming\n- Impact: Established philosophical and mechanical foundations\n\n**Birth of Computers (1930s-1950s):**\n- Alan Turing (1936): Invented Turing Machine, asked \"Can machines think?\"\n- ENIAC (1945): First electronic general-purpose computer\n- Turing Test (1950): Proposed methodology to test machine intelligence\n- Significance: Transformed AI from philosophy to science\n\n**Official Birth of AI (1956):**\n- Dartmouth Conference: John McCarthy, Marvin Minsky coined \"Artificial Intelligence\"\n- Bold Prediction: \"Within 20 years, machines will do everything humans can\"\n- Impact: Established AI as formal academic discipline\n\n**AI Winters (1970s-1980s):**\n- Causes: Unfulfilled promises, limited computing resources, insufficient data\n- Result: Research funding halted, progress slowed significantly\n- Lesson: Demonstrated gap between theoretical AI and practical implementation\n\n**AI Reawakening (1990s-2010s):**\n- 1997: IBM's Deep Blue defeated chess champion Garry Kasparov\n- 2000s: Internet, Big Data, and faster processors revitalized AI\n- 2011: IBM Watson won Jeopardy!\n- 2012: Deep Learning revolution - machines began seeing and hearing\n- Impact: Practical AI applications became commercially viable\n\n**Modern Era (2010s-Present):**\n- Voice Assistants: Alexa, Siri, Google Assistant\n- Autonomous Vehicles: Self-driving car technology\n- Generative AI: ChatGPT, image generation tools\n- Healthcare AI: Disease diagnosis and drug discovery\n- Significance: AI integrated into everyday life\n\nThe AI journey demonstrates cycles of optimism and disappointment, ultimately leading to today's transformative technologies.",
+      "category": "History of AI",
+      "marks": 5,
+      "keywords": [
+        "AI history",
+        "Dartmouth Conference",
+        "AI winters",
+        "Deep Learning"
+      ],
+      "created_at": "2025-09-30T00:23:41.872040"
+    },
+    {
+      "id": 8,
+      "question": "Explain the different types of AI environments with suitable examples for each type.",
+      "answer": "AI environments are classified along six dimensions, each affecting how agents operate:\n\n**1. Observability (Fully vs. Partially Observable):**\n- Fully Observable: Agent has complete information about environment state\n  Example: Chess game - all pieces and positions visible\n- Partially Observable: Agent receives limited environmental data\n  Example: Self-driving car in fog - sensors provide incomplete information\n- Impact: More sensors increase observability and agent effectiveness\n\n**2. Determinism (Deterministic vs. Stochastic):**\n- Deterministic: Outcomes are predictable and certain\n  Example: Calculator operations - 2+2 always equals 4\n- Stochastic: Outcomes involve randomness and uncertainty\n  Example: Weather forecasting - predictions based on probabilities\n- Significance: Stochastic environments pose greater challenges for decision-making\n\n**3. Episodes (Episodic vs. Sequential):**\n- Episodic: Tasks are independent, past actions don't affect future\n  Example: Image classification - each image processed independently\n- Sequential: Actions affect future states, requires learning from history\n  Example: Chess, autonomous driving - each move influences subsequent possibilities\n- Implication: Sequential environments require memory and planning\n\n**4. Changeability (Static vs. Dynamic):**\n- Static: Environment doesn't change during agent's decision-making\n  Example: Puzzle solving - pieces remain fixed during analysis\n- Dynamic: Environment changes while agent operates, requires continuous adaptation\n  Example: Traffic navigation - conditions change in real-time\n- Challenge: Dynamic environments demand responsive, adaptive agents\n\n**5. State Space (Discrete vs. Continuous):**\n- Discrete: Finite, countable states and actions\n  Example: Board games like chess - limited possible moves\n- Continuous: Infinite possible states and actions\n  Example: Robot arm movement - unlimited possible angles and positions\n- Complexity: Continuous environments require sophisticated control mechanisms\n\n**6. Agent Count (Single-Agent vs. Multi-Agent):**\n- Single-Agent: One AI operates independently\n  Example: Vacuum cleaning robot - works alone\n- Multi-Agent: Multiple AIs interact, collaborate, or compete\n  Example: Online multiplayer games (PUBG) - many agents interact simultaneously\n- Consideration: Multi-agent environments require coordination strategies\n\nUnderstanding these environment types is crucial for selecting appropriate AI techniques and designing effective agent architectures.",
+      "category": "AI Environments",
+      "marks": 5,
+      "keywords": [
+        "environment types",
+        "observability",
+        "deterministic",
+        "episodic"
+      ],
+      "created_at": "2025-09-30T00:23:41.872043"
+    },
+    {
+      "id": 9,
+      "question": "Explain the concept of problem-solving agents in AI with its core components.",
+      "answer": "A problem-solving agent is an intelligent entity designed to achieve specific goals by defining problems and searching for optimal action sequences. These agents operate effectively in environments that are known, deterministic (predictable outcomes), and fully observable (complete state information).\n\n**Core Components of Problem Definition:**\n\n1. **Initial State**: The agent's starting configuration (e.g., vacuum cleaner in Room A with Room B dirty)\n\n2. **Actions**: The complete set of possible moves available to the agent (e.g., move left, move right, clean)\n\n3. **Transition Model**: Describes how the world state changes after each action, providing predictability for planning\n\n4. **Goal Test**: Determines whether the current state satisfies the objective (e.g., all rooms are clean)\n\n5. **Path Cost**: Quantifies the expense of a solution path in terms of steps, time, energy, or other resources\n\n**Real-World Applications:**\nProblem-solving agents power various systems from self-driving cars (navigating from point A to B) to logistics optimization (food delivery routing) to resource scheduling (courtroom allocation).\n\nThe effectiveness of these agents depends on accurately formulating the problem with all five components, which then enables search algorithms to explore possible solutions and find optimal paths through the problem space.",
+      "category": "Problem Solving",
+      "marks": 5,
+      "keywords": [
+        "problem-solving agents",
+        "initial state",
+        "actions",
+        "goal test",
+        "transition model"
+      ],
+      "created_at": "2025-09-30T00:23:41.872045"
+    },
+    {
+      "id": 10,
+      "question": "Compare and contrast Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms.",
+      "answer": "BFS and DFS are fundamental uninformed search algorithms with distinct characteristics:\n\n**Breadth-First Search (BFS):**\n- Explores neighboring nodes level by level before proceeding deeper\n- Uses Queue (FIFO - First In First Out) data structure\n- Finds shortest path when all step costs are equal\n- Complete and optimal for uniform cost problems\n- High memory consumption: O(b^d) space complexity\n- Real-world example: Facebook friend suggestions explore first-level connections before second-level\n\n**Depth-First Search (DFS):**\n- Explores as deep as possible along each branch before backtracking\n- Uses Stack (LIFO - Last In First Out) or recursion\n- May not find shortest path\n- Memory efficient: O(bd) space complexity\n- Risk of infinite loops without visited node tracking\n- Real-world example: Maze solving - going deep into one path, then backtracking\n\n**Key Differences:**\n- Completeness: BFS is complete; DFS is not (unless depth-limited)\n- Optimality: BFS is optimal for uniform costs; DFS is not optimal\n- Memory: BFS requires significantly more memory than DFS\n- Use Cases: BFS for shortest paths and web crawling; DFS for puzzle solving and file system searching\n\nBoth have O(b^d) time complexity where b is branching factor and d is depth, but their space requirements differ dramatically, making the choice dependent on problem constraints.",
+      "category": "Uninformed Search",
+      "marks": 5,
+      "keywords": [
+        "BFS",
+        "DFS",
+        "breadth-first",
+        "depth-first",
+        "comparison"
+      ],
+      "created_at": "2025-09-30T00:23:41.872048"
+    },
+    {
+      "id": 11,
+      "question": "Explain Uniform Cost Search (UCS) algorithm with its advantages and disadvantages.",
+      "answer": "Uniform Cost Search (UCS) is an uninformed search algorithm that explores paths based on the lowest cumulative path cost, making it ideal for weighted graph problems.\n\n**Algorithm Working:**\n1. Initialize frontier list with starting node S at path cost g(n) = 0\n2. Add node to explored list\n3. Expand node by visiting all child nodes\n4. Check if any child is the goal node\n5. Reorder frontier as priority queue based on minimum path cost g(n)\n6. Repeat until goal is found or frontier is empty\n\n**Example Scenario:**\nConsider paths from A to B:\n- Direct path A→B: cost = 5\n- Indirect path A→C→B: cost = 4 (2+2)\nUCS selects A→C→B because it has the lower cumulative cost (4 < 5).\n\n**Advantages:**\n- Optimal solution guaranteed - always selects path with least cost\n- Complete when all step costs are positive\n- Particularly effective for problems with varying path costs\n\n**Disadvantages:**\n- Only concerned with path cost, not the number of steps\n- Can get stuck in infinite loops if not properly implemented\n- May explore many unnecessary nodes before reaching goal\n- Higher memory requirements than some alternatives\n\n**Applications:**\nUCS is widely used in GPS navigation systems, network routing protocols, and resource optimization problems where cost minimization is critical. It forms the foundation for more advanced algorithms like A* search.",
+      "category": "Uninformed Search",
+      "marks": 5,
+      "keywords": [
+        "Uniform Cost Search",
+        "UCS",
+        "path cost",
+        "priority queue"
+      ],
+      "created_at": "2025-09-30T00:23:41.872051"
+    },
+    {
+      "id": 12,
+      "question": "Describe Depth-Limited Search and explain how it addresses the limitations of standard DFS.",
+      "answer": "Depth-Limited Search (DLS) is an enhancement of Depth-First Search that addresses the infinite path problem by imposing a predetermined depth limit on the search.\n\n**Key Concept:**\nDLS treats nodes at the specified depth limit as if they have no successor nodes, effectively preventing the algorithm from exploring beyond that depth. This controlled exploration prevents infinite loops while maintaining DFS's memory efficiency.\n\n**Termination Conditions:**\nDLS can terminate with two distinct failure values:\n1. **Standard Failure**: Indicates no solution exists for the problem at any depth\n2. **Cutoff Failure**: Indicates no solution was found within the given depth limit, though one might exist deeper\n\n**Algorithm Characteristics:**\nThe depth limit is typically set based on domain knowledge or problem characteristics. For example, if solving an 8-puzzle where the optimal solution requires at most 20 moves, setting the depth limit to 25 provides a safety margin.\n\n**Advantages:**\n- Memory efficient like standard DFS\n- Prevents infinite path exploration\n- Suitable for problems with known maximum solution depths\n- Lower space complexity than BFS\n\n**Disadvantages:**\n- Incomplete - may miss solutions beyond the depth limit\n- Not optimal if multiple solutions exist at different depths\n- Choosing appropriate depth limit can be challenging\n- May terminate prematurely if limit is too restrictive\n\n**Practical Use:**\nDLS is particularly effective in game-playing AI where move depth is limited, puzzle solving with known maximum solution lengths, and scenarios where computational resources or time constraints require bounded search depth.",
+      "category": "Uninformed Search",
+      "marks": 5,
+      "keywords": [
+        "Depth-Limited Search",
+        "DLS",
+        "depth limit",
+        "DFS enhancement"
+      ],
+      "created_at": "2025-09-30T00:23:41.872053"
+    },
+    {
+      "id": 13,
+      "question": "Explain Iterative Deepening Depth-First Search (IDDFS) and discuss its optimality and completeness.",
+      "answer": "Iterative Deepening Depth-First Search (IDDFS) is an uninformed search algorithm that combines the memory efficiency of DFS with the completeness and optimality properties of BFS through progressive depth-limited searches.\n\n**Algorithm Working:**\n1. Set initial depth limit to 0\n2. Perform Depth-Limited DFS (DLDFS) from start node with current depth limit\n3. If goal found, return the path\n4. If goal not found, increment depth limit by 1\n5. Repeat steps 2-4 until goal found or maximum depth exceeded\n\n**Example:**\nFor a tree search, IDDFS first explores depth 0 (root only), then depth 1 (root + immediate children), then depth 2, and so on, gradually expanding the search horizon.\n\n**Optimality:**\nIDDFS is optimal for finding the shallowest solution. Since it explores level by level, it discovers the goal closest to the root first. Once a solution is found, it's guaranteed to be at the minimum depth because all shallower levels were already explored.\n\n**Completeness:**\nIDDFS is complete for finite graphs with finite branching factors. It exhaustively searches the entire space by incrementally increasing depth, ensuring that if a solution exists within a reachable depth, it will be found.\n\n**Advantages:**\n- Memory efficient: O(bd) space complexity like DFS\n- Optimal for uniform cost problems\n- Preferred for large search spaces with unknown solution depth\n- Avoids DFS's problem of exploring deep subtrees unnecessarily\n\n**Disadvantages:**\n- Higher time complexity due to repeated node exploration at each depth\n- Not complete for infinite graphs\n- Not optimal if step costs are non-uniform\n- Requires specifying maximum depth limit for practical implementation\n\nIDDFS is particularly valuable when memory is limited but completeness and optimality are required.",
+      "category": "Uninformed Search",
+      "marks": 5,
+      "keywords": [
+        "IDDFS",
+        "iterative deepening",
+        "completeness",
+        "optimality"
+      ],
+      "created_at": "2025-09-30T00:23:41.872055"
+    },
+    {
+      "id": 14,
+      "question": "Explain the Traveling Salesman Problem (TSP) with its algorithm and provide a practical example.",
+      "answer": "The Traveling Salesman Problem (TSP) is a classic combinatorial optimization problem where a salesperson must visit multiple cities exactly once and return to the starting city, minimizing the total travel distance.\n\n**Problem Statement:**\nGiven a set of cities and distances between each pair, find the shortest possible route that:\n1. Visits every city exactly once\n2. Returns to the origin city\n3. Minimizes total travel cost/distance\n\n**Greedy Algorithm Approach:**\n1. Sort all edges by distance (least to largest)\n2. Select edge with minimum distance\n3. Choose one vertex as origin node\n4. From current node, find least-cost adjacent edge not yet visited\n5. Continue process ensuring no cycles form (except final return)\n6. Return to origin to complete the tour\n\n**Practical Example - Newspaper Delivery:**\nA newspaper agent must deliver to houses H1 through H8 with minimum travel cost.\n\nStarting from H1:\n- H1 → H6 (cost: 4) - minimum from H1\n- H6 → H7 (cost: 3) - minimum from H6\n- H7 → H8 (cost: 2) - minimum from H7\n- H8 → H5 (cost: 4) - minimum from H8\n- H5 → H2 (cost: 3) - minimum from H5\n- H2 → H3 (cost: 2) - minimum from H2\n- H3 → H4 (cost: 1) - minimum from H3\n- H4 → H1 (cost: 6) - return to origin\n\n**Total minimum travel cost: 25 units**\n\n**Real-World Applications:**\n- Logistics and delivery route optimization\n- Circuit board drilling optimization\n- DNA sequencing\n- Manufacturing scheduling\n- Network routing\n\nTSP is NP-hard, meaning exact solutions become computationally expensive as city count increases, often requiring heuristic or approximation algorithms for large instances.",
+      "category": "Optimization Problems",
+      "marks": 5,
+      "keywords": [
+        "TSP",
+        "Traveling Salesman",
+        "route optimization",
+        "greedy algorithm"
+      ],
+      "created_at": "2025-09-30T00:23:41.872058"
+    },
+    {
+      "id": 15,
+      "question": "Explain the A* search algorithm with its evaluation function and applications.",
+      "answer": "A* (A-star) is an informed search algorithm that finds the shortest and most efficient path from start to goal by combining actual cost traveled with estimated remaining cost.\n\n**Core Formula:**\n**f(n) = g(n) + h(n)**\n\nWhere:\n- **g(n)** = Actual cost from start node to current node n (distance already traveled)\n- **h(n)** = Heuristic estimate of cost from node n to goal (smart guess of remaining distance)\n- **f(n)** = Total estimated cost of the cheapest path through node n\n\n**Algorithm Steps:**\n1. **Initialization**: Add initial node to open set with its f(n) value\n2. **Loop**: Select node with lowest f(n) from open set\n3. **Goal Check**: If node is goal, terminate and return path\n4. **Node Expansion**: Calculate g, h, and f values for all neighbors\n5. **Update**: Add neighbors to open set or update if better path found\n6. **Repeat**: Continue until goal reached or open set empty\n\n**Heuristic Function:**\nThe heuristic h(n) is a \"smart guess\" - for example, straight-line distance to destination in navigation problems. A good heuristic never overestimates the actual cost (admissible heuristic), ensuring optimality.\n\n**Key Advantages:**\n- Optimal and complete with admissible heuristic\n- More efficient than Dijkstra's algorithm\n- Balances exploration with goal-directedness\n- Widely applicable across domains\n\n**Real-World Applications:**\n1. **Pathfinding in Games**: Character navigation in dynamic game environments\n2. **Robotics**: Autonomous robot navigation between points\n3. **Network Routing**: Optimal data packet routing in telecommunications\n4. **AI Planning**: Multi-stage decision-making and movement evaluation\n\nA* represents the \"best of both worlds\" - combining Dijkstra's guaranteed optimality with Greedy Best-First Search's efficiency through intelligent heuristic guidance.",
+      "category": "Informed Search",
+      "marks": 5,
+      "keywords": [
+        "A* algorithm",
+        "heuristic search",
+        "f(n)",
+        "pathfinding"
+      ],
+      "created_at": "2025-09-30T00:23:41.872061"
+    },
+    {
+      "id": 16,
+      "question": "Explain Best First Search algorithm and differentiate between its two main variants: Greedy Best First Search and A* Search.",
+      "answer": "Best First Search (BFS) is an informed search algorithm that uses priority queues and heuristic functions to intelligently select the most promising node for exploration at each step.\n\n**Algorithm Mechanism:**\n1. Maintain two lists: OPEN (nodes to explore) and CLOSED (explored nodes)\n2. Start with initial node in ordered OPEN list\n3. Select top node from OPEN, move to CLOSED\n4. If goal reached, backtrack to find solution path\n5. Otherwise, expand node and add children to OPEN\n6. Reorder OPEN list by evaluation function f(n)\n7. Repeat until goal found\n\n**Two Main Variants:**\n\n**1. Greedy Best First Search:**\n- Evaluation function: f(n) = h(n) only\n- Uses only heuristic to estimate direct distance to goal\n- Prioritizes nodes that appear closest to goal\n- Faster but may be misled by heuristic\n- Example: Choosing route that looks shortest on map without considering actual road conditions\n- Not guaranteed optimal\n\n**2. A* Search:**\n- Evaluation function: f(n) = g(n) + h(n)\n- Combines actual travel cost g(n) with heuristic h(n)\n- Balances both achieved progress and estimated remaining distance\n- More accurate and reliable for complex pathfinding\n- Example: Considers both distance traveled and estimated remaining distance\n- Optimal and complete with admissible heuristic\n\n**Key Differences:**\n- Greedy focuses only on heuristic distance (short-term thinking)\n- A* considers total cost including path taken (comprehensive evaluation)\n- Greedy is faster but less reliable\n- A* is slower but guarantees optimal solution\n\n**Applications:**\nBoth variants are used in GPS navigation, game AI, robotics, and network routing, with A* generally preferred for critical applications requiring guaranteed optimal solutions.",
+      "category": "Informed Search",
+      "marks": 5,
+      "keywords": [
+        "Best First Search",
+        "Greedy",
+        "A*",
+        "heuristic",
+        "comparison"
+      ],
+      "created_at": "2025-09-30T00:23:41.872063"
+    },
+    {
+      "id": 17,
+      "question": "Explain the Hill Climbing algorithm with its types, advantages, and disadvantages.",
+      "answer": "Hill Climbing is a local search optimization algorithm inspired by climbing a hill, where the objective is to reach the peak (optimal solution) by iteratively making small improvements.\n\n**Basic Concept:**\nThe algorithm starts with an initial solution and explores neighboring solutions. If a neighbor improves the objective function, it becomes the current solution. This continues until no better neighbor exists or a stopping criterion is met.\n\n**Three Main Types:**\n\n**1. Simple Hill Climbing:**\n- Makes incremental moves to neighboring solutions\n- Accepts new solution only if it improves objective function\n- Terminates when no improvement possible\n- Prone to getting stuck in local optima\n\n**2. Steepest-Ascent Hill Climbing:**\n- Explores all neighboring solutions\n- Selects the one offering maximum improvement\n- More rigorous but computationally expensive\n- Better at escaping shallow local optima\n\n**3. Stochastic Hill Climbing:**\n- Introduces randomness in solution selection\n- Probabilistically accepts worse solutions\n- Explores broader solution space\n- Can escape local optima through random moves\n\n**Advantages:**\n1. Simple to understand and implement\n2. Memory efficient - stores only current state\n3. Quick convergence to local maximum\n4. Suitable for basic optimization problems\n\n**Disadvantages:**\n1. **Local Optima**: Gets stuck at local peaks, missing global optimum\n2. **Plateaus**: Struggles on flat regions with no discernible gradient\n3. **Ridges**: Oscillates along narrow elevated paths\n4. **Initial State Sensitivity**: Solution quality depends heavily on starting point\n5. **Lack of Exploration**: Myopic approach may miss better distant solutions\n\n**Real-World Applications:**\n- Route optimization for delivery services\n- Game playing AI (Tic-Tac-Toe)\n- Job scheduling and task assignment\n- Feature selection in machine learning\n- Network configuration optimization\n\nHill Climbing is effective for simple problems but requires enhancements like simulated annealing or genetic algorithms for complex optimization landscapes.",
+      "category": "Optimization Algorithms",
+      "marks": 5,
+      "keywords": [
+        "Hill Climbing",
+        "local search",
+        "optimization",
+        "local optima"
+      ],
+      "created_at": "2025-09-30T00:23:41.872065"
+    },
+    {
+      "id": 18,
+      "question": "Explain Genetic Algorithms inspired by natural evolution, including their working mechanism and key operators.",
+      "answer": "Genetic Algorithms (GA) are nature-inspired optimization techniques that mimic biological evolution to solve complex problems with numerous variables and potential solutions.\n\n**Core Concept:**\nGAs simulate Darwin's theory of \"survival of the fittest\" through computer programs, where solutions evolve over generations, with better solutions producing offspring while weaker ones are eliminated.\n\n**Working Mechanism:**\n\n**1. Initialization:** Generate random population of potential solutions (chromosomes)\n\n**2. Fitness Evaluation:** Score each solution based on how well it solves the problem\n\n**3. Selection:** Choose fittest individuals as parents using selection operators (tournament selection, roulette wheel, etc.)\n\n**4. Crossover (Reproduction):** Combine genes from two parents to create offspring\n   - Random crossover point selected\n   - Genetic material exchanged between parents\n   - Creates new solution combining traits\n\n**5. Mutation:** Introduce random changes in offspring to maintain genetic diversity and prevent premature convergence\n\n**6. Replacement:** New generation replaces old population\n\n**7. Termination:** Continue until satisfactory solution found or generation limit reached\n\n**Key Operators:**\n\n**Selection Operator:** Identifies high-fitness individuals for reproduction\n\n**Crossover Operator:** Merges parent chromosomes at random crossover sites to form offspring with combined characteristics\n\n**Mutation Operator:** Randomly alters genes to introduce diversity, preventing premature convergence to suboptimal solutions\n\n**Key Terminology:**\n- **Chromosome**: Individual solution representation\n- **Gene**: Variable component within chromosome\n- **Allele**: Specific value of a gene\n- **Fitness Score**: Measure of solution quality\n- **Search Space**: Collection of all possible solutions\n\n**Real-World Applications:**\n- Traveling Salesman Problem optimization\n- Neural network training\n- Scheduling and timetabling\n- Robot path planning\n- Feature selection in machine learning\n- Circuit design and VLSI layout\n\n**Advantages:**\nGAs excel at finding near-optimal solutions for complex problems where traditional algorithms struggle, handling large search spaces effectively through parallel population-based search.",
+      "category": "Optimization Algorithms",
+      "marks": 5,
+      "keywords": [
+        "Genetic Algorithm",
+        "evolution",
+        "crossover",
+        "mutation",
+        "fitness"
+      ],
+      "created_at": "2025-09-30T00:23:41.872069"
+    },
+    {
+      "id": 19,
+      "question": "Explain Bidirectional Search algorithm with its benefits and practical applications.",
+      "answer": "Bidirectional Search is an efficient search technique that simultaneously searches from both the initial state (forward) and goal state (backward), meeting in the middle to dramatically reduce search time.\n\n**Algorithm Working:**\n\n**1. Initial Setup:** Initialize two simultaneous searches:\n   - Forward search: Expands from initial state\n   - Backward search: Expands from goal state\n\n**2. Node Expansion:** Both searches alternately expand nearest unexplored nodes\n   - Forward: Generates successors\n   - Backward: Generates predecessors\n\n**3. Intersection Check:** After each expansion, check if newly generated nodes exist in opposite search's frontier\n\n**4. Meeting Point:** When common node discovered, construct optimal path by joining:\n   - Path from initial state to meeting point\n   - Path from meeting point to goal state\n\n**Key Benefits:**\n\n**1. Efficiency:** Dramatically reduces search space by searching from both ends\n   - If BFS has complexity O(b^d), bidirectional reduces to approximately O(2*b^(d/2))\n   - Exponential improvement in large search spaces\n\n**2. Optimality:** Guarantees finding optimal solution when using uniform-cost strategies\n\n**3. Memory Efficiency:** Often requires less memory than traditional BFS, especially in densely connected graphs\n\n**Challenges:**\n- Implementation complexity managing two simultaneous searches\n- Both forward and backward expansion must be feasible and meaningful\n- Memory management of both search frontiers required\n\n**Practical Applications:**\n\n**1. Navigation Systems (GPS):** Google Maps, OpenStreetMap finding shortest routes in large road networks\n\n**2. Robot Motion Planning:** Warehouse robots navigating efficiently around obstacles\n\n**3. Social Networks:** Finding degrees of separation between users on LinkedIn/Facebook\n\n**4. Network Routing:** Optimal data packet routing in telecommunications\n\n**5. Puzzle Solving:** Solving complex puzzles like 8-puzzle, Rubik's Cube efficiently\n\n**6. AI Planning:** Automated planning in logistics and supply chain systems\n\nBidirectional search is particularly effective when both forward and backward searches are equally feasible and the search space is large.",
+      "category": "Search Algorithms",
+      "marks": 5,
+      "keywords": [
+        "Bidirectional Search",
+        "simultaneous search",
+        "meeting point",
+        "efficiency"
+      ],
+      "created_at": "2025-09-30T00:23:41.872071"
+    },
+    {
+      "id": 20,
+      "question": "Explain Simulated Annealing algorithm, its inspiration from metallurgy, and compare it with other optimization algorithms.",
+      "answer": "Simulated Annealing (SA) is a probabilistic optimization technique inspired by the annealing process in metallurgy, where materials are heated and slowly cooled to achieve a low-energy, stable crystalline structure.\n\n**Conceptual Foundation:**\nJust as atoms move freely at high temperatures and settle into stable configurations as temperature decreases, SA explores solution space freely initially (accepting worse solutions) and gradually becomes more selective as \"temperature\" cools.\n\n**Algorithm Working:**\n1. Start with random initial solution\n2. Generate neighbor solution through small random change\n3. If new solution better, accept it\n4. If new solution worse, accept with probability that decreases over time\n5. Gradually reduce temperature according to cooling schedule\n6. Repeat until system \"freezes\" (temperature very low or stopping condition met)\n\n**Acceptance Probability:**\nWorse solutions accepted with probability proportional to temperature, allowing escape from local optima early in search while converging to good solutions later.\n\n**Why Use in AI:**\n- Handles non-convex, multi-modal problems with multiple local optima\n- Effective for combinatorial optimization (TSP, scheduling)\n- Can optimize neural network weights\n- Simple to implement\n\n**Comparison with Other Algorithms:**\n\n| Feature | Simulated Annealing | Genetic Algorithm | Hill Climbing |\n|---------|-------------------|------------------|---------------|\n| Accepts worse solutions | Yes (probabilistically) | Yes (via mutation) | No |\n| Escapes local optima | Yes | Yes | No |\n| Population-based | No (single solution) | Yes | No |\n| Inspiration | Physics (annealing) | Biology (evolution) | Greedy search |\n| Tuning required | Moderate | High | Low |\n\n**Real-World Applications:**\n1. **Combinatorial Optimization**: TSP, graph coloring\n2. **Scheduling**: Job-shop scheduling, class timetabling\n3. **Neural Networks**: Weight optimization where gradients unavailable\n4. **Circuit Design**: VLSI layout and component placement\n5. **Computer Vision**: Image segmentation, feature matching\n6. **Bioinformatics**: DNA sequence alignment, protein folding\n\n**Advantages:**\n- Simple and intuitive\n- Escapes local optima effectively\n- Works well in high-dimensional or discrete problems\n\n**Limitations:**\n- Slower convergence than greedy algorithms\n- Sensitive to parameter choices (cooling rate, initial temperature)\n- No guarantee of global optimum - only good approximation\n\nSA is particularly valuable for complex optimization problems where traditional methods get trapped in local optima.",
+      "category": "Optimization Algorithms",
+      "marks": 5,
+      "keywords": [
+        "Simulated Annealing",
+        "metallurgy",
+        "optimization",
+        "local optima",
+        "temperature"
+      ],
+      "created_at": "2025-09-30T00:23:41.872074"
+    },
+    {
+      "id": 21,
+      "question": "Explain the Minimax algorithm used in adversarial search with its key concepts and application in game theory.",
+      "answer": "The Minimax algorithm is a decision-making rule used in two-player, zero-sum games to determine optimal moves, assuming both players play optimally. It's fundamental to adversarial search where one player's gain equals another's loss.\n\n**Key Concepts:**\n\n**1. MAX Player:** Attempts to maximize the game score, typically representing the AI agent\n\n**2. MIN Player:** Attempts to minimize the score, representing the opponent\n\n**3. Game Tree Evaluation:** The algorithm evaluates from terminal states (leaves) back to the root node\n\n**Working Mechanism:**\nThe algorithm recursively explores all possible game states represented as a tree structure. At terminal nodes, utility values are assigned based on game outcomes. These values propagate upward: MAX nodes select maximum child values, while MIN nodes select minimum child values.\n\n**Example - Tic-Tac-Toe:**\n- Initial State: Empty 3×3 board\n- Players: X (MAX) and O (MIN) taking alternate turns\n- Actions: Place symbol in empty square\n- Terminal States: Win, loss, or draw\n- Utility Function: +1 (X wins), -1 (O wins), 0 (draw)\n\n**Application Process:**\nAt each level, MAX chooses moves leading to highest scores while MIN chooses moves forcing lowest scores. The algorithm assumes perfect play from both sides, creating a worst-case optimal strategy.\n\n**Significance:**\nMinimax forms the foundation for game-playing AI in chess, checkers, and strategic decision-making systems. However, its exponential complexity necessitates optimization techniques like Alpha-Beta Pruning for practical applications in complex games.",
+      "category": "Adversarial Search",
+      "marks": 5,
+      "keywords": [
+        "Minimax",
+        "game theory",
+        "MAX player",
+        "MIN player",
+        "zero-sum games"
+      ],
+      "created_at": "2025-09-30T00:23:41.872076"
+    },
+    {
+      "id": 22,
+      "question": "Explain Alpha-Beta Pruning optimization technique with its working mechanism and benefits in AI decision-making.",
+      "answer": "Alpha-Beta Pruning is a search optimization technique that improves minimax algorithm performance by eliminating unnecessary branch evaluations, discovered independently by researchers in the 1900s.\n\n**Core Concept:**\nThe technique avoids evaluating game tree branches that cannot influence the final decision by maintaining two values: Alpha (lower bound) and Beta (upper bound).\n\n**Alpha and Beta Values:**\n- **Alpha (α):** Best value the maximizing player can guarantee; represents lower bound; initially -∞\n- **Beta (β):** Best value the minimizing player can guarantee; represents upper bound; initially +∞\n\n**Pruning Process:**\nAs the algorithm explores the tree, it tracks Alpha and Beta values. When Alpha ≥ Beta at any node, the current branch is pruned because the opponent will avoid this path in favor of better alternatives. This eliminates large tree sections from evaluation.\n\n**Working Example:**\n1. Start with α = -∞, β = +∞\n2. At MAX nodes: Update alpha with maximum child value\n3. At MIN nodes: Update beta with minimum child value\n4. If α ≥ β: Prune remaining siblings (they won't affect final decision)\n5. Propagate values upward until root reached\n\n**Key Benefits:**\n\n**1. Improved Efficiency:** Significantly reduces computational requirements by focusing only on relevant branches\n\n**2. Reduced Time Complexity:** Optimally reduces from O(b^d) to O(b^(d/2)), enabling deeper tree exploration\n\n**3. Scalability:** Makes exploring larger search spaces feasible for complex games like chess and Go\n\n**Applications:**\n- Game AI: Stockfish (chess), AlphaGo (Go)\n- Autonomous systems: Real-time robot decision-making\n- Financial modeling: Portfolio optimization with scenario evaluation\n\nAlpha-Beta Pruning is crucial for practical AI game playing, enabling real-time decision-making in complex strategic environments.",
+      "category": "Adversarial Search",
+      "marks": 5,
+      "keywords": [
+        "Alpha-Beta Pruning",
+        "optimization",
+        "game trees",
+        "minimax enhancement"
+      ],
+      "created_at": "2025-09-30T00:23:41.872079"
+    },
+    {
+      "id": 23,
+      "question": "Compare and contrast Stochastic Games and Partially Observable Games in artificial intelligence.",
+      "answer": "Stochastic and Partially Observable Games represent two distinct sources of uncertainty in multi-agent AI systems, each requiring different handling strategies.\n\n**Stochastic Games (Markov Games):**\n\n**Definition:** Games where action outcomes are probabilistic rather than deterministic, generalizing both MDPs and normal-form games.\n\n**Key Features:**\n- Multiple decision-making agents (players)\n- Game evolves in stages with probabilistic state transitions\n- Next state depends on current state and joint actions of all players\n- Players receive rewards based on actions and probabilistic outcomes\n\n**Example - AI Football Match:**\nPlayers can kick, pass, or defend. Ball movement and goal outcomes depend on probabilities. States include \"ball at center,\" \"ball near goal.\" Next state determined by both players' actions plus chance elements.\n\n**Partially Observable Games:**\n\n**Definition:** Games where agents lack complete information about environment state or other agents' actions (imperfect information).\n\n**Key Features:**\n- Players receive only partial, noisy observations\n- Must infer or estimate actual state\n- Maintain belief state (probability distribution over possible states)\n- Hidden information creates strategic complexity\n\n**Example - Poker:**\nPlayers see own cards but not opponents'. Must estimate opponent hands based on betting patterns and previous moves. Strategic decisions rely on probabilities and incomplete observations.\n\n**Critical Differences:**\n\n| Aspect | Stochastic Games | Partially Observable Games |\n|--------|------------------|---------------------------|\n| Uncertainty Source | Random action outcomes | Limited information/visibility |\n| Observability | Fully observable | Partially observable |\n| Primary Challenge | Handle probabilistic transitions | Handle incomplete information |\n| Example | Dice games, grid world robots | Card games, blindfold chess |\n\n**Applications:**\nStochastic games apply to multi-agent reinforcement learning and robotic simulations. Partially observable games apply to poker bots (Libratus, DeepStack), military strategy simulations, and autonomous navigation with sensor noise.\n\nBoth types require sophisticated AI techniques but address fundamentally different uncertainty sources in competitive multi-agent environments.",
+      "category": "Adversarial Search",
+      "marks": 5,
+      "keywords": [
+        "Stochastic games",
+        "Partially Observable",
+        "uncertainty",
+        "multi-agent systems"
+      ],
+      "created_at": "2025-09-30T00:23:41.872082"
+    },
+    {
+      "id": 24,
+      "question": "Explain the architecture and components of Knowledge-Based Agents in artificial intelligence.",
+      "answer": "Knowledge-Based Agents (KBAs) are AI systems that use stored knowledge to perform tasks, make decisions, and draw conclusions. They are essential in medicine, engineering, and finance for solving complex problems.\n\n**Two Main Components:**\n\n**1. Knowledge Base (KB):**\nA collection of knowledge used for decision-making, stored in databases or knowledge representation systems. Knowledge can be:\n- **Explicit:** Rules or facts (e.g., \"IF fever THEN check for infection\")\n- **Implicit:** Relationships or patterns discovered through data analysis\n\nThe KB consists of sentences expressed in knowledge representation language, representing facts about the world.\n\n**2. Inference System:**\nUses reasoning methods to infer new knowledge from existing knowledge:\n- **Deduction:** Logical conclusions from premises\n- **Induction:** General rules from specific observations\n- **Abduction:** Best explanation for observations\n\nOperates through forward chaining (data-driven) and backward chaining (goal-driven) rules.\n\n**Architecture:**\nKBA receives environmental input through perception → Inference engine processes input → Communicates with KB to determine appropriate action → Learning element updates KB with new knowledge → Agent executes action.\n\n**Three Key Operations:**\n1. **TELL:** Agent informs KB about perceived information\n2. **ASK:** Agent requests KB to suggest appropriate action\n3. **PERFORM:** Agent executes selected action\n\n**Three Levels of Abstraction:**\n- **Knowledge Level:** What agent knows and how it uses knowledge (highest abstraction)\n- **Logical Level:** How knowledge is represented and manipulated through formal logic\n- **Implementation Level:** Programming language implementation details (lowest abstraction)\n\n**Design Approaches:**\n- **Declarative:** Represents knowledge as rules/facts independent of manipulation algorithms\n- **Procedural:** Represents knowledge as instruction sequences tied to algorithms\n\n**Real-World Applications:**\nMedical diagnosis systems (MYCIN), financial fraud detection, domain-specific chatbots for legal/insurance queries.\n\nKBAs enable intelligent decision-making by combining structured knowledge storage with logical reasoning capabilities.",
+      "category": "Knowledge Representation",
+      "marks": 5,
+      "keywords": [
+        "Knowledge-Based Agents",
+        "inference system",
+        "knowledge base",
+        "reasoning"
+      ],
+      "created_at": "2025-09-30T00:23:41.872084"
+    },
+    {
+      "id": 25,
+      "question": "Explain the different types of logic used in artificial intelligence with examples for each type.",
+      "answer": "Logic provides the foundational framework for AI systems to process information, make decisions, and solve problems. Different logic types serve specific reasoning requirements:\n\n**1. Propositional Logic (Boolean Logic):**\n- Uses true/false statements (propositions)\n- Applies to simple rule-based systems\n- Example: IF \"It is raining\" (True) AND \"I have umbrella\" (True) THEN \"I will go outside\" (True)\n\n**2. First-Order Logic (Predicate Logic):**\n- Handles objects, properties, and relations\n- More expressive than propositional logic\n- Example: ∀x (Human(x) → Mortal(x)) meaning \"All humans are mortal\"\n\n**3. Fuzzy Logic:**\n- Uses degrees of truth (values between 0 and 1)\n- Handles uncertain, imprecise, vague information\n- Example: Temperature = 0.7 × \"Hot\" + 0.3 × \"Warm\"\n- Applications: Weather control systems, washing machines\n\n**4. Modal Logic:**\n- Reasons about necessity and possibility\n- Used for beliefs, knowledge, intentions\n- Example: □P (necessarily true) vs ◇Q (possibly true)\n- Application: Security systems - \"Robot must necessarily alert if someone detected in restricted area\"\n\n**5. Temporal Logic:**\n- Handles time-based statements\n- Used in planning and scheduling\n- Example: \"Eventually robot will reach goal\" or \"Always, if light is red, stop\"\n\n**6. Default Logic (Non-monotonic):**\n- Allows assumptions that can be withdrawn when contradicted\n- Handles changing knowledge\n- Example: \"Birds can fly\" + \"Tweety is bird\" → flies; BUT \"Tweety is penguin\" → doesn't fly\n\n**7. Description Logic:**\n- Defines concepts (classes), roles (relationships), individuals\n- Used in ontologies, semantic web (OWL)\n- Example: Student defined as Person enrolled in Course\n- Application: Knowledge graphs, semantic systems\n\n**8. Bayesian Logic:**\n- Probabilistic reasoning with uncertainty\n- Example: Given cough and fever, calculate flu probability\n- Applications: Medical diagnosis, spam filters\n\nEach logic type addresses specific AI challenges, from simple boolean decisions to complex probabilistic reasoning under uncertainty.",
+      "category": "Logic and Reasoning",
+      "marks": 5,
+      "keywords": [
+        "logic types",
+        "propositional logic",
+        "fuzzy logic",
+        "modal logic",
+        "temporal logic"
+      ],
+      "created_at": "2025-09-30T00:23:41.872087"
+    },
+    {
+      "id": 26,
+      "question": "Explain probabilistic reasoning in AI with its importance and applications in handling uncertainty.",
+      "answer": "Probabilistic reasoning is a decision-making approach that uses probabilities to make educated predictions when complete information is unavailable, acknowledging that certainty is rare in real-world scenarios.\n\n**Core Concept:**\nInstead of definite statements (\"this will happen\"), probabilistic reasoning expresses likelihood (\"this is 70% likely to happen\") based on available evidence and historical patterns.\n\n**Why Probabilistic Reasoning is Needed:**\nReal-world information is typically incomplete, noisy, or uncertain. Probabilistic methods enable AI systems to function effectively despite these limitations.\n\n**Sources of Uncertainty in AI:**\n\n**1. Incomplete Data:** System lacks all relevant facts\n   - Example: Robot cannot see behind walls\n\n**2. Noisy Data:** Sensors provide erroneous information\n   - Example: Camera misidentifies bush as person at night\n\n**3. Ambiguity:** Single input has multiple interpretations\n   - Example: \"Bank\" - financial institution vs. riverbank\n\n**Key Concepts:**\n\n**Uncertainty:** Not being 100% certain about something; making decisions without complete information\n\n**Probability:** Number between 0 and 1 indicating event likelihood\n\n**Conditional Probability:** Probability of event A given event B has occurred\n\n**Bayes' Theorem:** Formula updating beliefs after observing new evidence\n\n**Real-World Applications:**\n\n**1. Medical Diagnosis:**\nInput symptoms (fever, cough) → Output probabilities (80% flu, 10% cold, 10% other) → Guides treatment decisions\n\n**2. Spam Filtering:**\nEmail contains \"Buy now!\" → 90% spam probability\nEmail contains \"Meeting agenda\" → 10% spam probability\nSystem learns and adapts continuously\n\n**3. Self-Driving Cars:**\nObject detected on road → Calculate probabilities:\n- 70% cardboard box (safe)\n- 30% animal (danger)\nDecision: Slow down/stop to ensure safety\n\n**4. Weather Prediction:**\nBased on historical data and current conditions → \"70% chance of rain\" → User carries umbrella\n\n**Handling Mechanisms:**\nAI systems use Bayesian networks, Markov models, and fuzzy logic to assign likelihoods to different possibilities and make optimal decisions under uncertainty.\n\nProbabilistic reasoning enables AI to function effectively in the uncertain, complex real world where perfect information is rarely available.",
+      "category": "Probabilistic Reasoning",
+      "marks": 5,
+      "keywords": [
+        "probabilistic reasoning",
+        "uncertainty",
+        "Bayes theorem",
+        "conditional probability"
+      ],
+      "created_at": "2025-09-30T00:23:41.872089"
+    },
+    {
+      "id": 27,
+      "question": "Explain First-Order Logic (FOL) with its basic elements and why it is more expressive than Propositional Logic.",
+      "answer": "First-Order Logic (FOL), also known as Predicate Logic or First-Order Predicate Logic, is a powerful knowledge representation language in artificial intelligence that extends propositional logic by representing information about objects, their properties, and relationships.\n\n**Why FOL is More Expressive:**\n\nPropositional Logic has limitations - it treats statements as atomic units without internal structure. FOL overcomes this by assuming the world contains not just facts but also objects, relations, and functions, enabling more natural and concise representation of knowledge.\n\n**Basic Elements of FOL:**\n\n**1. Constants:** Represent specific objects (1, 2, A, John, Mumbai, cat)\n\n**2. Variables:** Represent arbitrary objects (x, y, z, a, b)\n\n**3. Predicates:** Express properties or relations (Brother, Father, >, Red)\n\n**4. Functions:** Map objects to objects (sqrt, LeftLegOf, FatherOf)\n\n**5. Connectives:** Logical operators (∧ AND, ∨ OR, ¬ NOT, → implies, ↔ iff)\n\n**6. Equality:** Signifies two terms refer to same object (==)\n\n**7. Quantifiers:** Specify quantity of instances (∀ universal, ∃ existential)\n\n**Key Components:**\n\n**Syntax:** Rules for constructing well-formed formulas (WFFs) - defines permissible symbols and combinations\n\n**Semantics:** Assigns meaning based on domain of discourse and interpretation of symbols\n\n**Example Representation:**\n- \"All humans are mortal\": ∀x (Human(x) → Mortal(x))\n- \"Some students are intelligent\": ∃x (Student(x) ∧ Intelligent(x))\n\nFOL's expressiveness makes it sufficiently powerful to represent natural language statements concisely, enabling complex reasoning about objects and their relationships in artificial intelligence systems.",
+      "category": "First Order Logic",
+      "marks": 5,
+      "keywords": [
+        "FOL",
+        "predicate logic",
+        "quantifiers",
+        "knowledge representation"
+      ],
+      "created_at": "2025-09-30T00:23:41.872092"
+    },
+    {
+      "id": 28,
+      "question": "Explain Universal and Existential Quantifiers in First-Order Logic with examples and their properties.",
+      "answer": "Quantifiers in FOL specify the quantity of specimens in the universe of discourse. The two main types are Universal and Existential quantifiers.\n\n**Universal Quantifier (∀):**\n\n**Definition:** States that a predicate holds true for all instances in the domain. Represented by ∀, resembling an inverted A.\n\n**Reading:** \"For all x\", \"For each x\", \"For every x\"\n\n**Main Connective:** Implication (→)\n\n**Example:** \"All men drink coffee\"\n- FOL: ∀x (man(x) → drink(x, coffee))\n- Reading: \"For all x, if x is a man, then x drinks coffee\"\n\n**Existential Quantifier (∃):**\n\n**Definition:** States that a predicate holds true for at least one instance in the domain. Represented by ∃, resembling an inverted E.\n\n**Reading:** \"There exists an x\", \"For some x\", \"For at least one x\"\n\n**Main Connective:** Conjunction (∧)\n\n**Example:** \"Some boys are intelligent\"\n- FOL: ∃x (boy(x) ∧ intelligent(x))\n- Reading: \"There exists some x where x is a boy and x is intelligent\"\n\n**Key Points to Remember:**\n- Universal quantifier uses implication (→)\n- Existential quantifier uses conjunction (∧)\n\n**Properties of Quantifiers:**\n\n**1. Commutative within Same Type:**\n- ∀x∀y is equivalent to ∀y∀x\n- ∃x∃y is equivalent to ∃y∃x\n\n**2. Order Matters with Different Types:**\n- ∃x∀y is NOT equivalent to ∀y∃x\n\n**Example Demonstrating Order Importance:**\n- ∃x∀y: \"There exists a student who has taken all courses\"\n- ∀y∃x: \"For every course, there exists a student who has taken it\"\n\nThese statements have fundamentally different meanings.\n\n**Quantifier Duality:**\nEach quantifier can be expressed using the other with negation:\n- ∀x Likes(x, IceCream) ≡ ¬∃x¬Likes(x, IceCream)\n- ∃x Likes(x, Broccoli) ≡ ¬∀x¬Likes(x, Broccoli)\n\nUnderstanding quantifiers is crucial for accurately representing and reasoning about statements in artificial intelligence knowledge bases.",
+      "category": "First Order Logic",
+      "marks": 5,
+      "keywords": [
+        "quantifiers",
+        "universal",
+        "existential",
+        "FOL syntax"
+      ],
+      "created_at": "2025-09-30T00:23:41.872094"
+    },
+    {
+      "id": 29,
+      "question": "Explain Unification in AI with its algorithm, conditions, and importance with real-world examples.",
+      "answer": "Unification in Artificial Intelligence is a fundamental process of making two logical expressions identical by finding suitable variable substitutions. It's essential for logic-based AI systems, automated reasoning, and natural language processing.\n\n**Definition:**\nThe process of matching two logical statements by replacing variables with constants or other variables to make expressions equivalent.\n\n**Conditions for Successful Unification:**\n\n**1. Predicate Names Must Match:** Loves(x,y) and Hates(A,B) cannot unify (different predicates)\n\n**2. Equal Number of Arguments:** P(A,B) and P(x,y,z) cannot unify (different arities)\n\n**3. Constants Unify Only with Themselves:** Apple cannot unify with Orange\n\n**4. Variables Can Substitute:** Variables can be replaced with constants or other variables\n\n**5. No Circular Substitution (Occurs Check):** Variable x cannot substitute with f(x) (creates infinite loop)\n\n**6. Consistent Variable Occurrences:** P(x,x) and P(A,B) fail if x must simultaneously equal both A and B\n\n**Unification Algorithm - UNIFY(Expression1, Expression2):**\n\n**Step 1:** Check if expressions are identical variables/constants → return empty substitution\n\n**Step 2:** Compare predicate names → if different, return FAILURE\n\n**Step 3:** Verify argument count → if unequal, return FAILURE\n\n**Step 4:** Initialize empty substitution set []\n\n**Step 5:** Recursively unify each argument pair, applying substitutions progressively\n\n**Step 6:** Return Most General Unifier (MGU) - simplest substitution set achieving unification\n\n**Example:**\nUnify A(x, f(g(x)), a) and A(b, y, z):\n- Initial: SUBST = []\n- After x|b: SUBST = [(x|b)]\n- After y|f(g(b)): SUBST = [(y|f(g(b))), (x|b)]\n- After z|a: SUBST = [(z|a), (y|f(g(b))), (x|b)]\n- **MGU:** [(z|a), (y|f(g(b))), (x|b)]\n\n**Importance in AI:**\n\n**1. Automated Reasoning:** Enables inference and new knowledge generation\n\n**2. Logic Programming (Prolog):** Matches queries with facts for decision-making\n\n**3. NLP:** Aids language understanding and interpretation\n\n**4. Expert Systems:** Powers rule-based decision-making in specialized domains\n\n**5. Theorem Proving:** Facilitates automated mathematical proof verification\n\n**Real-World Example - IBM Watson Healthcare:**\n- Rule: HasDisease(X, flu) if HasSymptom(X, fever) ∧ HasSymptom(X, cough)\n- Patient: HasSymptom(John, fever), HasSymptom(John, cough)\n- Unification: X|John\n- Conclusion: HasDisease(John, flu)\n\nUnification enables AI systems to match patterns, apply rules intelligently, and make logical inferences critical for automated reasoning.",
+      "category": "First Order Logic",
+      "marks": 5,
+      "keywords": [
+        "unification",
+        "MGU",
+        "substitution",
+        "automated reasoning"
+      ],
+      "created_at": "2025-09-30T00:23:41.872097"
+    },
+    {
+      "id": 30,
+      "question": "Explain Forward Chaining and Backward Chaining inference methods in rule-based systems with their advantages and comparison.",
+      "answer": "Forward Chaining and Backward Chaining are two fundamental inference methods used in rule-based AI systems for logical reasoning and decision-making.\n\n**Forward Chaining (Data-Driven):**\n\n**Mechanism:**\nStarts with available facts/data and applies IF-THEN rules to derive new facts until goal is reached or no more rules applicable.\n\n**Working Process:**\n1. Begin with known facts in knowledge base\n2. Find rules whose conditions (IF parts) are satisfied\n3. Apply rules to infer new facts (THEN parts)\n4. Add new facts to knowledge base\n5. Repeat until goal achieved or no applicable rules\n\n**Example - Medical Diagnosis:**\n- Facts: Patient has fever, cough\n- Rule: IF fever AND cough THEN possible flu\n- Conclusion: System infers \"possible flu\"\n\n**Advantages:**\n- Simple and straightforward implementation\n- Automatic processing of arriving data\n- Comprehensive - explores all possible inferences\n- Efficient when all inferences needed from dataset\n- Suitable for dynamic environments with continuous data\n\n**Disadvantages:**\n- Inefficient for specific goal-oriented tasks\n- Memory intensive (stores many intermediate facts)\n- Can become slow with large rule sets\n- May generate many irrelevant inferences\n\n**Backward Chaining (Goal-Driven):**\n\n**Mechanism:**\nStarts with goal/hypothesis and works backward, checking if available data supports it by recursively proving sub-goals.\n\n**Working Process:**\n1. Begin with goal to prove\n2. Identify rules that could conclude the goal\n3. Check if rule conditions are met\n4. Recursively prove sub-goals (conditions)\n5. Continue until reaching initial facts or goal deemed unattainable\n\n**Example - Computer Troubleshooting:**\n- Goal: Computer won't start\n- Check backward: Is power connected? → Is battery charged? → Is power button working?\n\n**Advantages:**\n- Efficient for specific goal achievement\n- Resource efficient - requires less memory\n- Focuses only on relevant facts\n- Suitable for diagnostic systems and interactive queries\n- Ideal when specific problem-solving needed\n\n**Disadvantages:**\n- More complex implementation (recursive nature)\n- Requires predefined goals\n- Inefficient with multiple goals (must repeat for each)\n- Challenging with large rule sets\n\n**Comparison:**\n\n| Feature | Forward Chaining | Backward Chaining |\n|---------|------------------|-------------------|\n| Approach | Data-driven | Goal-driven |\n| Starting Point | Known facts | Specific goals |\n| Efficiency | All inferences | Specific goals only |\n| Memory Usage | High (intermediate facts) | Lower (focused) |\n| Implementation | Simple | Complex (recursive) |\n| Best For | Dynamic data environments | Diagnostic/interactive systems |\n\n**Real-World Applications:**\n- Forward: Smart home automation, monitoring systems\n- Backward: Technical support chatbots, medical diagnosis expert systems\n\nBoth methods are fundamental to rule-based AI, with selection depending on whether the system needs comprehensive inference or goal-specific problem-solving.",
+      "category": "Inference Methods",
+      "marks": 5,
+      "keywords": [
+        "forward chaining",
+        "backward chaining",
+        "rule-based systems",
+        "inference"
+      ],
+      "created_at": "2025-09-30T00:23:41.872099"
+    },
+    {
+      "id": 31,
+      "question": "Explain Classical Planning in AI with its components, assumptions, and how it differs from general problem-solving.",
+      "answer": "Classical Planning, also known as Symbolic Planning, is an AI approach for automatically producing action sequences (plans) that achieve goals from an initial state through logical reasoning about states and actions.\n\n**Core Components:**\n\n**1. State:** Complete world description using logical atoms\n   Example: On(BlockA, BlockB), Clear(BlockA), OnTable(BlockC)\n\n**2. Actions:** Operations with preconditions (what must be true before) and effects (what becomes true after)\n   Example: Move(x, y, z)\n   - Preconditions: On(x,y) ∧ Clear(x) ∧ Clear(z)\n   - Effects: Remove On(x,y), Add On(x,z), Update Clear atoms\n\n**3. Initial State:** Starting configuration of the world\n\n**4. Goal:** Condition or set of conditions planner must satisfy\n\n**5. Transition Model:** Describes resulting state from applying action\n\n**6. Utility/Cost Function:** Assigns numerical values to states or action sequences\n\n**Fundamental Assumptions:**\n\n**1. Deterministic Actions:** Effects are known and certain (no randomness)\n\n**2. Fully Observable World:** Planner knows exact current state\n\n**3. Static World:** Environment changes only through agent's chosen actions\n\n**4. Discrete States:** Finite, countable state space\n\n**5. Sequential Actions:** Actions occur one at a time\n\n**Example - Blocks World:**\n- State: Blocks arrangement (which on which, which on table, which clear)\n- Actions: Stack, Unstack, PickUp, PutDown\n- Goal: Achieve specific block configuration\n- Plan: Sequence of moves to reach goal arrangement\n\n**Planning as State-Space Search:**\n\n**Forward Search (Progression):**\nStart at initial state → Apply actions → Reach goal\n- Example cooking: Raw ingredients → Boil water → Add pasta → Cook → Serve\n\n**Backward Search (Regression):**\nStart from goal → Reason backward about required preconditions → Reach initial state\n- Example cooking: Served pasta (goal) → needs cooked pasta → needs boiled pasta → needs boiling water → needs water in pot\n\n**Common Search Algorithms:**\n- BFS: Complete, optimal for uniform costs, but memory-intensive\n- DFS: Memory efficient, not guaranteed optimal\n- Uniform Cost Search: Optimal for varying action costs\n- A*: Optimal with good heuristics, f(n) = g(n) + h(n)\n\n**Representation Languages:**\n- STRIPS: Older, basic representation\n- ADL: More expressive, additional features\n- PDDL: Widely used standard (Planning Domain Definition Language)\n\n**Difference from General Problem-Solving:**\nClassical planning uses structured logical representation enabling automated reasoning about complex action sequences, whereas general problem-solving may use numerical, probabilistic, or unstructured approaches.\n\n**Real-World Applications:**\n- Robotics: Warehouse robots planning item retrieval sequences\n- Space Missions: NASA satellite and Mars rover task scheduling\n- Logistics: Delivery route and package drop-off optimization\n- Manufacturing: Assembly line task sequencing\n\nClassical planning provides the foundation for autonomous systems requiring intelligent action sequencing in structured, predictable environments.",
+      "category": "Planning",
+      "marks": 5,
+      "keywords": [
+        "classical planning",
+        "STRIPS",
+        "state-space search",
+        "PDDL"
+      ],
+      "created_at": "2025-09-30T00:23:41.872101"
+    },
+    {
+      "id": 32,
+      "question": "Explain Hierarchical Task Network (HTN) planning with its components and advantages over classical planning.",
+      "answer": "Hierarchical Task Network (HTN) planning is an AI planning approach that decomposes high-level tasks into progressively smaller subtasks using domain knowledge, making planning more natural and efficient than classical state-space search.\n\n**Core Concept:**\nInstead of planning every low-level action directly, HTN breaks large tasks into hierarchical subtasks like a to-do list that gets refined step by step, using recipes (methods) that capture domain expertise.\n\n**Key Components:**\n\n**1. Task:** Something the agent needs to accomplish\n   - **High-level tasks:** Abstract goals (e.g., MakeTea, OrganizeParty)\n   - **Primitive tasks:** Basic executable actions (e.g., TurnOnKettle, PourWater)\n\n**2. Method:** Recipe for decomposing high-level task into smaller subtasks\n   - Specifies how to break down abstract task\n   - Contains ordering constraints and conditions\n\n**3. Task Network:** Partially ordered set of tasks with constraints\n   - Shows dependencies between tasks\n   - Allows parallel execution where possible\n\n**4. Decomposition:** Process of replacing high-level task with subtasks according to method\n\n**Example - Making Tea:**\n\n**High-level task:** MakeTea\n\n**Method decomposition:**\n- BoilWater\n- AddTeaLeaves\n- AddMilkAndSugar\n- ServeTea\n\n**Primitive tasks:**\n- TurnOnKettle\n- PourWater\n- AddSugar\n- Stir\n\n**Advantages Over Classical Planning:**\n\n**1. Leverages Domain Knowledge:**\nMethods encode expert knowledge about task decomposition, guiding search efficiently rather than exploring blindly\n\n**2. Natural Representation:**\nMirrors human thinking - we naturally break complex tasks into manageable subtasks\n\n**3. Faster Planning:**\nDramatically reduces search space by using structured decomposition instead of exhaustive state-space exploration\n\n**4. Scalability:**\nHandles complex domains better through hierarchical abstraction\n\n**5. Reusability:**\nMethods can be reused across different planning problems in same domain\n\n**Real-World Applications:**\n\n**1. Virtual Assistants (Alexa, Siri):**\n- High-level: \"Plan my day\"\n- Decompose: CheckCalendar → RemindMeetings → SuggestCommute → SetAlarms\n\n**2. Robotics:**\n- High-level: \"Clean the room\"\n- Decompose: PickUpTrash → VacuumFloor → MopFloor → ArrangeObjects\n\n**3. Gaming AI:**\n- High-level: \"Defeat enemy base\"\n- Decompose: GatherResources → BuildArmy → ScoutEnemy → PlanAttack → ExecuteAttack\n\n**4. Manufacturing:**\n- High-level: \"Assemble product\"\n- Decompose: GatherComponents → FollowAssemblySequence → QualityCheck → Package\n\n**5. Military Planning:**\n- High-level: \"Complete mission\"\n- Decompose: Intelligence → Logistics → Tactical → Execution → Extraction\n\n**HTN vs Classical Planning:**\n\n| Aspect | HTN Planning | Classical Planning |\n|--------|-------------|-------------------|\n| Approach | Top-down decomposition | Bottom-up state search |\n| Knowledge | Uses domain methods | Domain-independent |\n| Search Space | Reduced via hierarchy | Full state space |\n| Efficiency | Generally faster | Can be slower |\n| Naturalness | Mirrors human thinking | Abstract search |\n\nHTN planning's hierarchical approach makes it particularly suitable for complex real-world domains where expert knowledge about task structure is available and can dramatically improve planning efficiency.",
+      "category": "Planning",
+      "marks": 5,
+      "keywords": [
+        "HTN planning",
+        "hierarchical",
+        "task decomposition",
+        "methods"
+      ],
+      "created_at": "2025-09-30T00:23:41.872104"
+    },
+    {
+      "id": 33,
+      "question": "Explain Generative AI with its working mechanism, model architectures, and real-world applications.",
+      "answer": "Generative AI is artificial intelligence that creates original content—text, images, video, audio, or code—in response to user prompts, using sophisticated deep learning models that learn patterns from massive training datasets.\n\n**How Generative AI Works (Three Phases):**\n\n**1. Training (Foundation Model Creation):**\n- Deep learning algorithm trained on terabytes of raw, unlabeled data\n- Performs millions of pattern-recognition exercises\n- Creates neural network of parameters encoding relationships and patterns\n- Result: Foundation model capable of autonomous content generation\n- Examples: GPT (text), DALL-E (images), Stable Diffusion\n\n**2. Tuning (Application-Specific Adaptation):**\n- **Fine-tuning:** Feed labeled data specific to target application\n- **RLHF (Reinforcement Learning with Human Feedback):** Users evaluate outputs, model improves iteratively\n- **RAG (Retrieval Augmented Generation):** Extends model with external knowledge sources\n\n**3. Generation & Continuous Improvement:**\n- Model generates content based on prompts\n- Outputs continuously evaluated and refined\n- Regular retuning (weekly/monthly) improves accuracy\n- Foundation models updated less frequently (yearly)\n\n**Major Model Architectures:**\n\n**1. Variational Autoencoders (VAEs) - 2013:**\n- Encode data, decode multiple variations\n- Applications: Anomaly detection, natural language generation\n\n**2. Generative Adversarial Networks (GANs) - 2014:**\n- Generator creates content vs. Discriminator evaluates quality\n- Applications: Image generation, style transfer, data augmentation\n\n**3. Diffusion Models - 2014:**\n- Add noise to data, then iteratively remove noise to create output\n- Applications: High-quality image generation (DALL-E)\n\n**4. Transformers - 2017:**\n- Use attention mechanism to process sequences\n- Process entire sequences simultaneously, capture context\n- Applications: ChatGPT, GPT-4, BERT, Midjourney\n- Most powerful current architecture\n\n**What Generative AI Can Create:**\n\n**1. Text:** Essays, articles, documentation, code comments, emails, creative writing\n\n**2. Images/Video:** Realistic images, original art, animations, special effects\n\n**3. Audio/Speech:** Natural speech synthesis, voice assistants, music composition\n\n**4. Software Code:** Original code, autocomplete, translation between languages, debugging\n\n**5. Design:** Graphic design, game environments, characters, architectural concepts\n\n**6. Scientific Data:** Molecular structures for drug discovery, synthetic training data\n\n**Real-World Applications:**\n\n**1. Education:** Personalized study notes, quiz generation (ChatGPT for students)\n\n**2. Healthcare:** Drug discovery acceleration, medical imaging analysis\n\n**3. Entertainment:** Movie concept art, background music generation\n\n**4. E-commerce:** Fashion design prototyping, personalized product recommendations\n\n**5. Customer Service:** Advanced chatbots with contextual understanding\n\n**6. Software Development:** Code generation, application modernization, debugging assistance\n\n**7. Marketing:** Personalized content creation, ad copy generation\n\n**Benefits:**\n- Greater efficiency through automation\n- Enhanced creativity and brainstorming\n- Improved decision-making from data analysis\n- Dynamic personalization at scale\n- 24/7 availability\n\n**Challenges:**\n- Hallucinations (plausible but incorrect outputs)\n- Bias in training data\n- Security/privacy concerns\n- Deepfake potential for misuse\n- Intellectual property questions\n\nGenerative AI represents a transformative technology automating creative and analytical tasks previously requiring human intelligence, with applications expanding rapidly across virtually all industries.",
+      "category": "Generative AI",
+      "marks": 5,
+      "keywords": [
+        "generative AI",
+        "transformers",
+        "foundation models",
+        "LLMs"
+      ],
+      "created_at": "2025-09-30T00:23:41.872107"
+    }
+  ]
+}

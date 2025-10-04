@@ -1,0 +1,35 @@
+{
+  "name": "studbot-ai-learning",
+  "version": "1.0.0",
+  "description": "AI Learning Companion for BSc IT Students",
+  "main": "index.html",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "python app.py",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "echo 'Deploy to GitHub Pages or Vercel'"
+  },
+  "keywords": [
+    "ai",
+    "artificial-intelligence",
+    "education",
+    "chatbot",
+    "learning",
+    "bsc-it",
+    "quiz",
+    "machine-learning"
+  ],
+  "author": "StudBot Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/studbot.git"
+  },
+  "homepage": "https://yourusername.github.io/studbot",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
